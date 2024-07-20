@@ -1,13 +1,15 @@
 import React from 'react'
 import Banner from '../banner/Banner'
 import styled from 'styled-components';
-import Formation from '../formation/Formation';
+import Category from '../formation/Category';
+import Evenement from '../evenement/Evenement';
 
 export default function Home() {
   return (
     <HomeStyled>
       <Banner/>
-      <Formation/>
+      <Category/>
+      <Evenement/>
     </HomeStyled>
   )
 }
